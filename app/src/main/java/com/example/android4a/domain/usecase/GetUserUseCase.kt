@@ -9,4 +9,5 @@ class GetUserUseCase(
     suspend fun invoke(email: String) : User? {
        return userRepository.getUser(email)
     }
+    //mettre error msg si pas demail ecrit
 }
