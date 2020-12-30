@@ -18,6 +18,12 @@ class MainViewModel(
     val loginLiveData: MutableLiveData<LoginStatus> = MutableLiveData()
 
 
+    fun onClickedCreate(emailUser: String, password: String){
+        viewModelScope.launch(Dispatchers.IO) {
+            val newUser = User(emailUser)
+            createUserUseCase.invoke(newUser)
+        }
+    }
 
     fun onClickedLogin(emailUser: String, password: String) {
         viewModelScope.launch(Dispatchers.IO) {
