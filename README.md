@@ -34,6 +34,6 @@ https://github.com/SOREAULohan/Android4A
 
 ![error2](https://user-images.githubusercontent.com/65115009/103368971-41ef0f00-4ac9-11eb-9705-cc606bad56d6.PNG)
 
-. Troisème écran : api list.
+. Troisème écran : liste des pokemon
 
 ![accountcreate](https://user-images.githubusercontent.com/65115009/103368975-43203c00-4ac9-11eb-846f-d6c59a9ac4d9.PNG)
