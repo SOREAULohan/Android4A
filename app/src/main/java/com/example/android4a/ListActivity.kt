@@ -31,7 +31,7 @@ class ListActivity : AppCompatActivity(){
         list_recycler_view.layoutManager = linearLayoutManager
 
 
-        //showList();
+
         var pokeList = listOf<Pokemon>()
         pokeList= getDataFromCache()
 
