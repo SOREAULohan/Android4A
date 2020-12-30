@@ -9,7 +9,7 @@ import com.example.android4a.R
 import com.example.android4a.data.repository.Pokemon
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import kotlinx.android.synthetic.main.activity_next.*
+import kotlinx.android.synthetic.main.activity_list.*
 import okhttp3.*
 import org.json.JSONObject
 import java.io.IOException
@@ -22,12 +22,12 @@ class APIList : AppCompatActivity() {
     private lateinit var adapter: ListAdapter
     private lateinit var linearLayoutManager: LinearLayoutManager
     private var PRIVATE_MODE = 0
-    private val PREF_NAME = "myAppAndroid"
+    private val PREF_NAME = "PokeAndroid"
     private lateinit var sharedPref: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
         super.onCreate(savedInstanceState, persistentState)
-        setContentView(R.layout.activity_next)
+        setContentView(R.layout.activity_list)
 
         linearLayoutManager = LinearLayoutManager(this)
         list_recycler_view.layoutManager = linearLayoutManager
@@ -71,7 +71,7 @@ class APIList : AppCompatActivity() {
                 var mpoke = listOf<Pokemon>()
                 for (i in 0 until Jarray.length()) {
                     tempName = Jarray.getJSONObject(i).getString("name")
-                    tempSpecie = Jarray.getJSONObject(i).getString("species")
+                    tempSpecie = Jarray.getJSONObject(i).getString("url")
                     mpoke += Pokemon(tempName,tempSpecie)
                 }
 

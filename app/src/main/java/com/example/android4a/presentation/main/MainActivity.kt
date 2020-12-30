@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
                             dialog.dismiss()
                         }
                         .show()
-                    val intent = Intent(this, NextActivity::class.java)
+                    val intent = Intent(this, ListActivity::class.java)
                     startActivity(intent)
 
                 }

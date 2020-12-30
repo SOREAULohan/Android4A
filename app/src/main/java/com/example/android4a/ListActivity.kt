@@ -8,25 +8,25 @@ import com.example.android4a.R
 import com.example.android4a.data.repository.Pokemon
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import kotlinx.android.synthetic.main.activity_next.*
+import kotlinx.android.synthetic.main.activity_list.*
 import okhttp3.*
 import org.json.JSONObject
 import java.io.IOException
 
 
-class NextActivity : AppCompatActivity(){
+class ListActivity : AppCompatActivity(){
     private val client = OkHttpClient()
     private var mpoke = listOf<Pokemon>()
     private lateinit var adapter: ListAdapter
     private lateinit var linearLayoutManager: LinearLayoutManager
     private var PRIVATE_MODE = 0
-    private val PREF_NAME = "myApp"
+    private val PREF_NAME = "PokeAndroid"
     private lateinit var sharedPref: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_next)
+        setContentView(R.layout.activity_list)
         linearLayoutManager = LinearLayoutManager(this)
         list_recycler_view.layoutManager = linearLayoutManager
 
@@ -57,7 +57,6 @@ class NextActivity : AppCompatActivity(){
             .edit()
             .putString(PREF_NAME, jsonString)
             .apply()
-        //Toast.makeText(getApplicationContext(), "Liste sauvegarde", Toast.LENGTH_SHORT).show();
     }
     private fun getDataFromCache(): List<Pokemon> {
         sharedPref  = getSharedPreferences(PREF_NAME, PRIVATE_MODE)
@@ -100,7 +99,7 @@ class NextActivity : AppCompatActivity(){
                 println(mpoke.size)
                 saveList(mpoke)
                 runOnUiThread { list_recycler_view.adapter = adapter }
-                // Stuff that updates the UI
+
             }
         })
 
