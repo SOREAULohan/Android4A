@@ -22,8 +22,4 @@ https://github.com/SOREAULohan/Android4A
  # Fonctionnalités :
  .Premier écran
 
-![Appli](https://user-images.githubusercontent.com/65115009/103368496-f0925000-4ac7-11eb-95a1-c20cf61f993f.PNG)
-
-.Deuxième écran : il faut cliquer sur create account quand on a mis le login et password sinon on a un message d'erreur
-
-![Errormsg](https://user-images.githubusercontent.com/65115009/103368556-20415800-4ac8-11eb-9154-dc0455028670.PNG)
+![appli2](https://user-images.githubusercontent.com/65115009/103368944-2be14e80-4ac9-11eb-8a93-8eaef8a7bc8d.PNG)
