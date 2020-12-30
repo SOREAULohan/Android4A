@@ -12,6 +12,7 @@ https://github.com/SOREAULohan/Android4A
 
 # Consignes respectées : 
 . MVVVM
+
 . Clean Architecture & Room
 . Login page et Test Unitaires
 . Base de données
