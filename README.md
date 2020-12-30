@@ -14,8 +14,11 @@ https://github.com/SOREAULohan/Android4A
 . MVVVM
 
 . Clean Architecture & Room
+
 . Login page et Test Unitaires
+
 . Base de données
+
 . Fonction supplémentaires : 
   - API liste
   - Fonction de création de compte et login
