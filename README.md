@@ -26,10 +26,10 @@ https://github.com/SOREAULohan/Android4A
 ![appli2](https://user-images.githubusercontent.com/65115009/103368944-2be14e80-4ac9-11eb-8a93-8eaef8a7bc8d.PNG)
 
 
-.Deuxième écran : il faut taper le login et le password et cliquer sur create account sinon on a un message d'erreur
+.Deuxième écran : il faut taper le login et le password et cliquer sur create account sinon on a un message d'erreur. Quand on a cliquer sur create account, on peut cliquer sur validate.
 
 ![error2](https://user-images.githubusercontent.com/65115009/103368971-41ef0f00-4ac9-11eb-9705-cc606bad56d6.PNG)
 
-. Troisème écran : api list
+. Troisème écran : api list.
 
 ![accountcreate](https://user-images.githubusercontent.com/65115009/103368975-43203c00-4ac9-11eb-846f-d6c59a9ac4d9.PNG)
