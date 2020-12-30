@@ -63,7 +63,7 @@
         app:layout_constraintLeft_toLeftOf="@+id/create_account_button"
         app:layout_constraintRight_toRightOf="@+id/create_account_button"
         app:layout_constraintTop_toBottomOf="@+id/password_input_layout"
-        android:text="Confirm"
+        android:text="Validate"
         />
 
     <com.google.android.material.button.MaterialButton
@@ -76,7 +76,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_button"
-        android:text="Inscription"
+        android:text="Create account"
 
         />
 
