@@ -1,5 +1,5 @@
 # Android4A
-Projet Mobile 4A SOREAU Lohan Classe 42
+Projet Mobile 4A SOREAU Lohan Classe TC-42
 
 # Présentation
 Création d'une application mobile sur Android Studio avec login de compte en Kotlin.
@@ -17,3 +17,6 @@ https://github.com/SOREAULohan/Android4A
 . Fonction supplémentaires : 
   - API liste
   - Fonction de création de compte et login
+  
+ 
+ # Fonctionnalités :
